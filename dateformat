@@ -1,0 +1,13 @@
+SELECT CAST('12/01/2019' as date)
+SELECT FORMAT (CAST('12/01/2019' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+SELECT FORMAT (CAST('12/01/2019 11:53' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+SELECT FORMAT (CAST('12/01/2019 11:53 AM' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+SELECT FORMAT (CAST('12/01/2019 2:53' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+SELECT FORMAT (CAST('12/01/2019 2:53 PM' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+SELECT FORMAT (CAST('12/01/2019 14:53' as datetime2), 'yyyy-MM-dd hh:mm:ss tt') as datetime2
+
+SELECT CONVERT(DATETIME2, '9/7/2023 11:53')
+SELECT CONVERT(DATETIME2, '9/7/2023 11:53')
+SELECT CONVERT(VARCHAR, '9/7/2023 11:53', 121)
+SELECT CONVERT(DATETIME2, '9/7/2023 11:53 AM')
+SELECT CONVERT(DATETIME2, '9/7/2023 2:53 PM')
